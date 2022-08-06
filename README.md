@@ -7,5 +7,5 @@ positional arguments:\
 \
 options:\
   -h, --help   show this help message and exit\
-## Usage\
+## Usage
 python flipper2mct.py source destination\

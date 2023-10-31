@@ -5,7 +5,7 @@ import re
 parser = argparse.ArgumentParser(description='[+] Process NFC dumps from Flipper Zero to MCT format')
 parser.add_argument('source', help='MCT filename', type=Path)
 parser.add_argument('destination', help='Flipper Zero dump', type=Path)
-parser.add_argument('-s', '--uid-size', type=int, choices=[4, 7], required=True)
+parser.add_argument('-s', '--uidsize', type=int, choices=[4, 7], required=True)
 args = parser.parse_args()
 
 
